@@ -21,44 +21,25 @@ export default function Example() {
           </button>
         </div>
       </div>
-      <div class="rounded overflow-hidden shadow-lg">
-        <img
-          class="w-full"
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1680002018/img-odo-1_gwwskt.jpg"
-          alt="Odobot"
-        />
-        <div class="px-6 py-4">
-          <h1 class="font-bold text-2xl mb-2 font-abc">Odobot</h1>
-          <p class="text-gray-700 text-base font-abc">
-          Odobot is a Smart Self-Service Fuel Pump & Odometer Management System. Perfect for corporate controlled fuels stations, self service fuels stations, franchised fuel stations and government fuel consumption tracking.
-          </p>
-        </div>
-
-        <div class="px-6 pt-2 pb-2">
-          <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/Odobot">Learn More</a>
-          </button>
-        </div>
-      </div>
 
 
 
       <div class="rounded overflow-hidden shadow-lg">
         <img
           class="w-full"
-          src="https://plus.unsplash.com/premium_photo-1673686834997-496b6f82736e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt="Qurias"
+          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1680541824/regasy_cow8aw.jpg"
+          alt="Regasy"
         />
         <div class="px-6 py-4">
-          <h1 class="font-bold text-2xl mb-2 font-abc">Qurias</h1>
+          <h1 class="font-bold text-2xl mb-2 font-abc">Regasy</h1>
           <p class="text-gray-700 text-base font-abc">
-          Qurias is a Traffic Signal Management & Control System that allows for managing multiple ways traffic.
+          A recreation and game park management system that enables ticket sales, validation of sold tickets, issuance of entry slips, validation of exits and extraction of reports on all activities within the recreation/game/reserve park using a one stop online portal.
           </p>
         </div>
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Prudcts/Qurias">Learn More</a>
+            <a href="/Products/REGASY">Learn More</a>
           </button>
         </div>
       </div>
@@ -243,7 +224,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/SESAME-Express Lanes">Learn More</a>
+            <a href="/Products/SESAME-ExpressLanes">Learn More</a>
           </button>
         </div>
       </div>
