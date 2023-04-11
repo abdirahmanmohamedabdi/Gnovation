@@ -104,31 +104,31 @@ const navigation = {
                   </h3>
                   <ul role="list" className="mt-4 space-y-4"></ul>
   
-                  <h2 class="mt-4 text-base font-abc  font-medium ">Phone</h2>
+                  <h2 className="mt-4 text-base font-abc  font-medium ">Phone</h2>
   
                   <a
                     href="tel:+254 781033073"
-                    class="mt-2 text-sm text-blue-500 font-abc dark:text-sky-900"
+                    className="mt-2 text-sm text-blue-500 font-abc dark:text-sky-900"
                     target="_blank"
                   >
                     +254 781033073
                   </a>
   
-                  <h2 class="mt-4 text-base font-abc font-medium ">Office</h2>
+                  <h2 className="mt-4 text-base font-abc font-medium ">Office</h2>
                   <a
                     href="https://goo.gl/maps/26gkzigDeixStj78A"
-                    class="mt-2 text-sm text-blue-500 font-abc dark:text-sky-900"
+                    className="mt-2 text-sm text-blue-500 font-abc dark:text-sky-900"
                     target="_blank"
                   >
                     Road C, off Enterprise Rd, Nairobi
                   </a>
   
-                  <h2 class="mt-4 text-base font-medium font-abc text-gray-800 ">
+                  <h2 className="mt-4 text-base font-medium font-abc text-gray-800 ">
                     Email
                   </h2>
   
                   <a
-                    class="mt-2 text-sm text-blue-500 font-abc dark:text-sky-900"
+                    className="mt-2 text-sm text-blue-500 font-abc dark:text-sky-900"
                     href="mailto:box@gnovation.xyz"
                     target="_blank"
                   >
