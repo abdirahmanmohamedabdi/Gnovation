@@ -1,10 +1,18 @@
+import Link from "next/link";
+import Image from "next/image";
+import regasy from "../../public/regasy.jpeg"
+import jarida from "../../public/jarida.jpg"
+import concert from "../../public/concert.jpeg"
+
+
+
 export default function Example() {
   return (
     <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
       <div class="rounded overflow-hidden shadow-lg">
-        <img
+        <Image
           class="w-full"
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1680002018/jarida_jnzmcn.jpg"
+          src={jarida}
           alt="Jarida"
         />
         <div class="px-6 py-4">
@@ -17,7 +25,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/Jarida">Learn More</a>
+            <Link href="/Products/Jarida">Learn More</Link>
           </button>
         </div>
       </div>
@@ -25,9 +33,9 @@ export default function Example() {
 
 
       <div class="rounded overflow-hidden shadow-lg">
-        <img
+        <Image
           class="w-full"
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1680541824/regasy_cow8aw.jpg"
+          src={regasy}
           alt="Regasy"
         />
         <div class="px-6 py-4">
@@ -39,7 +47,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/REGASY">Learn More</a>
+            <Link href="/Products/REGASY">Learn More</Link>
           </button>
         </div>
       </div>
@@ -47,9 +55,9 @@ export default function Example() {
 
 
       <div class="rounded overflow-hidden shadow-lg">
-        <img
+        <Image
           class="w-full"
-          src="https://res.cloudinary.com/dyijvml1y/image/upload/v1680541823/concert_wjxsyg.jpg"
+          src={concert}
           alt="E-Ticketing Platform"
         />
         <div class="px-6 py-4">
@@ -60,7 +68,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/E-TicketingPlatform">Learn More</a>
+            <Link href="/Products/E-TicketingPlatform">Learn More</Link>
           </button>
         </div>
       </div>
@@ -80,7 +88,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/ACaCKi">Learn More</a>
+            <Link href="/Products/ACaCKi">Learn More</Link>
           </button>
         </div>
       </div>
@@ -101,7 +109,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/BioPass">Learn More</a>
+            <Link href="/Products/BioPass">Learn More</Link>
           </button>
         </div>
       </div>
@@ -122,7 +130,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/FacialRecognitionSystem">Learn More</a>
+            <Link href="/Products/FacialRecognitionSystem">Learn More</Link>
           </button>
         </div>
       </div>
@@ -142,7 +150,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/Olabod">Learn More</a>
+            <Link href="/Products/Olabod">Learn More</Link>
           </button>
         </div>
       </div>
@@ -162,7 +170,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/TangiT70">Learn More</a>
+            <Link href="/Products/TangiT70">Learn More</Link>
           </button>
         </div>
       </div>
@@ -182,7 +190,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/Track&Trace">Learn More</a>
+            <Link href="/Products/Track&Trace">Learn More</Link>
           </button>
         </div>
       </div>
@@ -203,7 +211,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/SmartQueueManagementSystem">Learn More</a>
+            <Link href="/Products/SmartQueueManagementSystem">Learn More</Link>
           </button>
         </div>
       </div>
@@ -224,7 +232,7 @@ export default function Example() {
 
         <div class="px-6 pt-2 pb-2">
           <button class="inline-flex items-center px-4 py-2    bg-sky-900 bg-origin-border  border border-transparent rounded-md shadow-sm text-base font-medium text-white hover:from-purple-700 hover:to-sky-900 rounded-md">
-            <a href="/Products/SESAME-ExpressLanes">Learn More</a>
+            <Link href="/Products/SESAME-ExpressLanes">Learn More</Link>
           </button>
         </div>
       </div>

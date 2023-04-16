@@ -1,4 +1,7 @@
-/* This example requires Tailwind CSS v2.0+ */
+import Image from "next/image";
+import footerlogo from "../../public/footerlogo.png"
+
+
 const navigation = {
   links: [
     { name: 'Home', href: '/' },
@@ -34,16 +37,19 @@ const navigation = {
 
 export default function Example() {
   return (
-    <footer className='bg-slate-100	' aria-labelledby='footer-heading'>
+    <footer className='bg-sky-900	' aria-labelledby='footer-heading'>
       <h2 id='footer-heading' className='sr-only'>
         Footer
       </h2>
       <div className='max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:pt-12 lg:pb-4 lg:px-8'>
         <div className='xl:grid xl:grid-cols-3 xl:gap-8'>
           <div className='space-y-2 xl:col-span-1'>
-            <img
+            <Image
               className='w-1/2'
-              src='../../gnovation-logo-vr.png'
+              src={footerlogo}
+              width="0"
+              height="80"
+              sizes="100vw"
               alt='Gnovation logo'
             />
 
@@ -52,7 +58,7 @@ export default function Example() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className='text-gray-400 font-abc hover:text-gray-500'
+                  className='text-white	 font-abc hover:text-gray-500'
                 >
                   <item.icon className='w-6 inline' aria-hidden='true' />
                 </a>
@@ -62,7 +68,7 @@ export default function Example() {
           <div className='mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2'>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase font-abc'>
+                <h3 className='text-sm font-semibold text-white	 tracking-wider uppercase font-abc'>
                   Quick Links
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'>
@@ -70,7 +76,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className='text-base text-gray-500 font-abc hover:text-gray-900'
+                        className='text-base text-white	 font-abc hover:text-gray-900'
                       >
                         {item.name}
                       </a>
@@ -79,7 +85,7 @@ export default function Example() {
                 </ul>
               </div>
               <div className='mt-12 md:mt-0'>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase font-abc'>
+                <h3 className='text-sm font-semibold text-white	 tracking-wider uppercase font-abc'>
                   Helpful links
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'>
@@ -87,7 +93,7 @@ export default function Example() {
                     <li key={item.name}>
                       <a
                         href={item.href}
-                        className='text-base text-gray-500 font-abc hover:text-gray-900'
+                        className='text-base text-white	font-abc hover:text-gray-900'
                       >
                         {item.name}
                       </a>
@@ -98,36 +104,36 @@ export default function Example() {
             </div>
             <div className='md:grid md:grid-cols-2 md:gap-8'>
               <div>
-                <h3 className='text-sm font-semibold text-gray-400 tracking-wider uppercase font-abc '>
+                <h3 className='text-sm font-semibold text-white	tracking-wider uppercase font-abc '>
                   Contact
                 </h3>
                 <ul role='list' className='mt-4 space-y-4'></ul>
 
-                <h2 className='mt-4 text-base font-abc  font-medium '>Phone</h2>
+                <h2 className='mt-4 text-base font-abc  text-white	 font-medium '>Phone</h2>
 
                 <a
                   href='tel:+254 781033073'
-                  className='mt-2 text-sm text-blue-500 font-abc dark:text-sky-900'
+                  className='mt-2 text-sm  text-white	 font-abc 	'
                   target='_blank'
                 >
                   +254 781033073
                 </a>
 
-                <h2 className='mt-4 text-base font-abc font-medium '>Office</h2>
+                <h2 className='mt-4 text-base text-white	font-abc font-medium '>Office</h2>
                 <a
                   href='https://goo.gl/maps/26gkzigDeixStj78A'
-                  className='mt-2 text-sm text-blue-500 font-abc dark:text-sky-900 '
+                  className='mt-2 text-sm font-abc text-white	 '
                   target='_blank'
                 >
                   Road C, off Enterprise Rd, Nairobi
                 </a>
 
-                <h2 className='mt-4 text-base font-medium font-abc text-gray-800 '>
+                <h2 className='mt-4 text-base font-medium font-abc text-white	 '>
                   Email
                 </h2>
 
                 <a
-                  className='mt-2 text-sm text-blue-500 font-abc dark:text-sky-900'
+                  className='mt-2 text-sm  font-abc text-white	'
                   href='mailto:box@gnovation.xyz'
                   target='_blank'
                 >
@@ -138,8 +144,8 @@ export default function Example() {
             </div>
           </div>
         </div>
-        <div className='mt-6 border-t border-gray-200 pt-4 '>
-          <p className='text-base text-gray-400 xl:text-center font-abc '>
+        <div className='mt-6 border-t border-white	 pt-4 '>
+          <p className='text-base text-white	 xl:text-center font-abc '>
             © 2023 Copyright: Gnovation LTD
           </p>
         </div>

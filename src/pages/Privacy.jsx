@@ -1,7 +1,7 @@
 export default function Privacy() {
     return (
       <div>
-        <div className="container my-24 px-6 mx-auto">
+        <div className="container my-20 px-5 mx-auto">
           <section className="mb-32 text-gray-800">
             <h1 className="font-bold text-3xl mb-4 font-abc">
               Privacy Policy for Gnovation
@@ -21,7 +21,7 @@ export default function Privacy() {
               our products and services, or communicate with us. The types of
               personal information we may collect include:
             </p>
-            <ul className="list-none	 mb-6  ">
+            <ul className="list-disc	px-3 mb-6  ">
               <li>
                 Contact information, such as your name, email address, and phone
                 number.
@@ -49,7 +49,7 @@ export default function Privacy() {
             <p className=" font-abc mb-6 flex items-center">
               We may use your personal information for the following purposes:
             </p>
-            <ul className="list-none	 mb-6  ">
+            <ul className="list-disc	px-3 	 mb-6  ">
               <li>To provide and improve our products and services.</li>
               <li>To communicate with you about our products and services.</li>
               <li>To process your payments and fulfill your orders.</li>
@@ -69,7 +69,7 @@ export default function Privacy() {
             <p className=" font-abc mb-6 flex items-center">
               We may use your personal information for the following purposes:
             </p>
-            <ul className="list-none	 mb-6  ">
+            <ul className="list-disc		px-3  mb-6  ">
               <li>
                 Service providers and partners who help us deliver our products
                 and services, such as payment processors, hosting providers, and
