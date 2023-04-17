@@ -291,7 +291,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <div className="sticky top-0 z-30 w-full px-2 py-4 bg-white sm:px-4 shadow ">
+    <div className="sticky top-0 z-30 w-full px-2 py-2 bg-white sm:px-4 shadow ">
      <header >
         <Popover className="relative bg-white">
           <div className="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
@@ -350,12 +350,12 @@ export default function Example() {
                     >
                       <Popover.Panel className="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-xs lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                         <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 font-abc lg:grid-cols-2">
+                          <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 font-abc text-decoration-line: underline; lg:grid-cols-2">
                             {solutions.map((item) => (
                               <Link
                                 key={item.name}
                                 href={item.href}
-                                className="-m-3 p-3 flex items-start font-abc rounded-lg hover:bg-gray-50"
+                                className="-m-3 p-3 flex items-start font-abc text-decoration-line: underline rounded-lg hover:bg-gray-50"
                               >
                               
                                 <div className="ml-4">
@@ -383,7 +383,7 @@ export default function Example() {
                         "group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                       )}
                     >
-                      <span className="font-abc">Our Products</span>
+                      <span className="font-abc ">Our Products</span>
                       <ChevronDownIcon
                         className={classNames(
                           open ? "text-gray-600" : "text-gray-400",
@@ -484,7 +484,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div className="mt-3">
-                  <h3 className="px-4 font-bold text-l mb-1 text-sky-900 font-abc">Our Products</h3>
+                  <h3 className="px-4 font-bold text-l mb-1 text-sky-900 underline font-abc">Our Products</h3>
                     <nav className="grid grid-cols-1 gap-4">
                       {test.map((item) => (
                         <Link
@@ -502,8 +502,8 @@ export default function Example() {
                     
                   </div>
                   <div className="mt-8">
-                    <h3 className="px-4">Our Services</h3>
-                    <nav className="grid grid-cols-1 gap-7">
+                    <h3 className="px-4  underline">Our Services</h3>
+                    <nav className="grid grid-cols-1 gap-2">
                       {solutions.map((item) => (
                         <Link
                           key={item.name}
@@ -522,7 +522,7 @@ export default function Example() {
                 </div>
                 
                 <div className="py-6 px-5">
-                  <div className="grid grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 gap-2">
                     <Link
                       href="/"
                       className="text-base font-medium text-gray-900 hover:text-gray-700"
